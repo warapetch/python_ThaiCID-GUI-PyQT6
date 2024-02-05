@@ -1,0 +1,70 @@
+*{
+    font-size: 15px;
+    font-family: "Bai Jamjuree";    
+}
+
+QPushButton:enabled{
+    border-width: 1px;
+    border-radius: 2px;
+    height: 25px;
+    min-width: 80px;
+    background-color: rgb(255,0,144);
+    /* border-style: outset; */
+    /* border-color: rgb(255,0,144);     */
+}
+
+QPushButton:flat {
+    border: none; /* no border for a flat push button */
+}
+
+QPushButton:default {
+    border-color: navy; /* make the default button prominent */
+    border-color: #afafaf; 
+}
+
+QPushButton:checked:enabled {
+    border-color: rgb(255,0,144); 
+    border-width: 0px;  
+    background-color: #FFF000;
+}
+
+QPushButton:pressed:enabled {
+    border-color: rgb(255,0,144); 
+    border-width: 0px;  
+    background-color: #FFF000;
+    border: none; 
+    border-width: 0px;    
+}
+
+QPushButton:disabled{ 
+    background-color: #c0c0c0;
+    border-color: #afafaf;         
+}
+
+QPushButton:hover:enabled{
+    background-color: #00ff44;
+    color: red;
+    font-size: 15.5px;
+    border-style: inset;    
+}    
+
+/* Object-Name */
+#labelstatus{
+    font-size: 13px;
+    font-family: "Bai Jamjuree";    
+}
+
+#button:pressed{ 
+    border-style: inset;
+    background-color: rgb(255,238,144);
+}
+
+#buttonreaddata{ 
+    background-color: rgb(144,238,144);
+}
+
+/* 
+*
+ClassName
+#ObjectName 
+*/

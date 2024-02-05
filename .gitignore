@@ -1,0 +1,22 @@
+# zip files
+*.zip
+*.exe
+*.json
+*.jpg
+*.-p-ng
+*.txt
+*.text
+
+# Folder
+env
+zip
+__pycache__
+.history
+backup
+images
+dist
+build
+tmp
+temp
+doc
+document
